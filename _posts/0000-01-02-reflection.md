@@ -4,7 +4,9 @@ center: false
 
 ---
 
-Reflection: introspection, the ability of a program to examine its own structure at runtime
+- Reflection: 
+ - *introspection* 
+ - *the ability of a program to examine its own structure at runtime*
 
 - **Static**
 
@@ -19,4 +21,4 @@ Foo myObject = new Foo();
 ```Java
 Object myObject = Class.forName("Foo").getConstructor().newInstance();
 ```
-  - only known at Runtime
+  - runtime checking
