@@ -1,20 +1,22 @@
 ---
 title: "" 
+center: false
+
 ---
 
 Reflection: introspection, the ability of a program to examine its own structure at runtime
 
-**Static**
+- **Static**
 
 ```Java
 Foo myObject = new Foo();
 ```
 
-compile-type checking
+  - compile-type checking
 
-**Dynamic**
+- **Dynamic**
 
 ```Java
 Object myObject = Class.forName("Foo").getConstructor().newInstance();
 ```
-only known at Runtime
+  - only known at Runtime
