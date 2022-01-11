@@ -7,7 +7,7 @@ Use the left arrow to go back!
 
 #### refl
 
-```Javascript
+```JavaScript
 import a
 ```
 
