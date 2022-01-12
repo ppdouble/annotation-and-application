@@ -12,6 +12,13 @@ title: ""
   - *checking whether you actually are overriding a method from parent class*
 
 ```Java
+
+
+
+
+
+
+
 public final class CartItem {
     private final int id;
     private final String name;
@@ -54,4 +61,8 @@ public final class CartItem {
         System.out.println(items.size());
     }
 }
+
+
+
+
 ```
