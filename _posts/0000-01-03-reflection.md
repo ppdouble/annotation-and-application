@@ -7,9 +7,9 @@ title: ""
   - *introspection* 
   - *the ability of a program to examine its own structure at runtime*
 
-- **Static**
-  - *compile-type checking*
+- **Dynamic**
+  - *runtime checking*
 
 ```Java
-Foo myObject = new Foo();
+Object myObject = Class.forName("Foo").getConstructor().newInstance();
 ```
