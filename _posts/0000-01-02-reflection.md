@@ -6,8 +6,8 @@ center: false
 ---
 
 - Reflection: 
- - *introspection* 
- - *the ability of a program to examine its own structure at runtime*
+  - *introspection* 
+  - *the ability of a program to examine its own structure at runtime*
 
 - **Static**
 
@@ -16,6 +16,7 @@ Foo myObject = new Foo();
 ```
 
   - compile-type checking
+
 
 - **Dynamic**
 
