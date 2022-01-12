@@ -10,17 +10,15 @@ center: false
   - *the ability of a program to examine its own structure at runtime*
 
 - **Static**
+  - compile-type checking
 
 ```Java
 Foo myObject = new Foo();
 ```
 
-  - compile-type checking
-
-
 - **Dynamic**
+  - runtime checking
 
 ```Java
 Object myObject = Class.forName("Foo").getConstructor().newInstance();
 ```
-  - runtime checking
