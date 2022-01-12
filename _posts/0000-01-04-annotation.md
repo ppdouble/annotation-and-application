@@ -12,10 +12,6 @@ title: ""
   - *checking whether you actually are overriding a method from parent class*
 
 ```Java
-import java.util.HashSet;
-import java.util.Objects;
-import java.util.Set;
-
 public final class CartItem {
     private final int id;
     private final String name;
@@ -56,7 +52,6 @@ public final class CartItem {
         items.add(book2);
 
         System.out.println(items.size());
-
     }
 }
 ```
