@@ -13,9 +13,6 @@ center: false
 - **Static**
   - *compile-type checking*
 
-`Foo myObject = new Foo();`
--------------
-
 - **Dynamic**
   - *runtime checking*
 
