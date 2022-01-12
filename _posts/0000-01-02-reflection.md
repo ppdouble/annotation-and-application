@@ -13,9 +13,7 @@ center: false
 - **Static**
   - *compile-type checking*
 
-```Java
-Foo myObject = new Foo();
-```
+`Foo myObject = new Foo();`
 -------------
 
 - **Dynamic**
