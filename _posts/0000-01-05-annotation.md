@@ -3,9 +3,9 @@
 title: "" 
 ---
 
-- Annotation: 
-  - *to provide extra metadata about your program* 
-  - *no other effect on execution of the annotated code*
+- **@Overide**: 
+  - *compile-time checking* 
+  - *to make sure you actually are overriding a method when you think you are*
 
 ```Java
 public final class CartItem {
