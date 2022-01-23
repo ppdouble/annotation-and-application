@@ -3,7 +3,7 @@
 title: "" 
 ---
 
-- **@Overide**: 
+- **[@Overide](https://github.com/openjdk-mirror/jdk7u-jdk/blob/master/src/share/classes/java/lang/Override.java)**: 
   - *compile-time checking (javac)* 
   - *to make sure you actually are overriding a method when you think you are*
 
