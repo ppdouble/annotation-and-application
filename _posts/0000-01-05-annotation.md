@@ -4,7 +4,7 @@ title: ""
 ---
 
 - **@Overide**: 
-  - *compile-time checking* 
+  - *compile-time checking (javac)* 
   - *to make sure you actually are overriding a method when you think you are*
 
 ```Java
@@ -54,4 +54,7 @@ public final class CartItem {
 
 
 
+```
+```
+java: method does not override or implement a method from a supertype
 ```
