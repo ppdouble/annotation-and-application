@@ -20,11 +20,15 @@ public final class CartItem {
     }
 
     @Override
-    public boolean equals(CartItem other) {
+    public boolean equals(Object other) {
         if (this == other) {
             return true;
         }
-        return this.id == other.id && this.name.equals(other.name) && this.cost == other.cost;
+        if (!(other instanceof CartItem)) {
+            return false;
+        }
+        CartItem o = (CartItem) other;
+        return this.id == o.id && this.name.equals(o.name) && this.cost == o.cost;
     }
 
     @Override
