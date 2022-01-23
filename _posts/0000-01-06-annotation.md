@@ -60,6 +60,3 @@ public final class CartItem {
 
 
 ```
-```
-java: method does not override or implement a method from a supertype
-```
